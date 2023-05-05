@@ -1,0 +1,104 @@
+{% extends 'main/base.html' %}
+{% block title %}Catalog{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Free</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/month</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>Unlocked Only Antonio</li>
+                      <li>0 Secret Characters</li>
+                      <li>0 DLC "Legacy of the Moonspell" Characters</li>
+                      <li>0 DLC "Tides of the Foscari" Characters</li>
+                      <li>Email support</li>
+                      <li>Access to updates</li>
+                    </ul>
+                      {% if request.user.is_authenticated %}
+                      <h4> Already activated </h4>
+                      {% else %}
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="{% url 'Login' %}" class="nav-link px-2">Login</a></button>
+                      {% endif %}
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><font color="red"><s> $4 </s></font> $2<small class="text-body-secondary fw-light">/month</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>12 Standard Characters</li>
+                      <li>5 Secret Characters</li>
+                      <li>2 DLC "Tides of the Foscari" Characters</li>
+                      <li>2 DLC "Legacy of the Moonspell" Characters</li>
+                      <li>Priority email support</li>
+                      <li>Access to updates</li>
+                    </ul>
+                    {% if request.user.is_authenticated %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'ProInfo' %}" class="nav-link px-2">More info</a></button>
+                    {% else %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'Login' %}" class="nav-link px-2">More info</a></button>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Premium</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><font color="red"><s> $8 </s></font> $5<small class="text-body-secondary fw-light">/month</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>All Standard Characters</li>
+                      <li>10 Secret Characters</li>
+                      <li>5 DLC "Legacy of the Moonspell" Characters</li>
+                      <li>5 DLC "Tides of the Foscari" Characters</li>
+                      <li>Priority email support</li>
+                      <li>Access to updates</li>
+                    </ul>
+                    {% if request.user.is_authenticated %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'PremiumInfo' %}" class="nav-link px-2">More info</a></button>
+                    {% else %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'Login' %}" class="nav-link px-2">More info</a></button>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">God</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title"> <font color="red"><s> $11 </s></font> $7<small class="text-body-secondary fw-light">/month</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>All Standard Characters</li>
+                      <li>All Secret Characters</li>
+                      <li>All DLC "Legacy of the Moonspell" Characters</li>
+                      <li>All DLC "Tides of the Foscari" Characters</li>
+                      <li>Priority email support</li>
+                      <li>Access to updates</li>
+                    </ul>
+                    {% if request.user.is_authenticated %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'GodInfo' %}" class="nav-link px-2">More info</a></button>
+                    {% else %}
+                    <button type="button" class="w-100 btn btn-lg btn-primary"><a href="{% url 'Login' %}" class="nav-link px-2">More info</a></button>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+{% endblock %}

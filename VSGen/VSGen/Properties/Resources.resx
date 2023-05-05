@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="black_Sprite-Dommario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Dommario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Rottin'Ghoul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Rottin'Ghoul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Cavallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Cavallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Keitha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Keitha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Divano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Divano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Imelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Imelda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Concetta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Concetta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Gennaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Gennaro.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Poppea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Poppea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Exdash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Exdash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Megalo_Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Megalo_Syuuto.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Poppea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Poppea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Zi'Assunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Zi'Assunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Avatar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Toastie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Toastie.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Trouser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Trouser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Marrabbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Marrabbio.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-McCoy-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-McCoy-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Porta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Porta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Pugnala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Pugnala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Antonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Antonio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Zi'Assunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Zi'Assunta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Minnah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Minnah.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Rottin'Ghoul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Rottin'Ghoul.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Syuuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Miang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Miang.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Peppino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Peppino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Ramba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Ramba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Giovanna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Giovanna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Megalo_Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Megalo_Menya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Red_Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Red_Death.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Menya.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Red_Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Red_Death.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playground-logo-3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playground-logo-3d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Syuuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Gains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Gains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Profile-Male-PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Profile-Male-PNG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Gennaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Gennaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Ambrojoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Ambrojoe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Clerici" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Clerici.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Christine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Christine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Ambrojoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Ambrojoe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Divano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Divano.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Cosmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Cosmo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Gains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Gains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Leda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Leda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Poe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Poe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Leda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Leda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Clerici" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Clerici.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Antonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Antonio.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Leda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Leda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Red_Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Red_Death.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Rottin'Ghoul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Rottin'Ghoul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Luminaire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Luminaire.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Dommario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Dommario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Sammy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Sammy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Lama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Lama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Maruto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Maruto.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Sigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Sigma.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Concetta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Concetta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Genevieve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Genevieve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Toastie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Toastie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Cavallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Cavallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Exdash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Exdash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Clerici" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Clerici.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Smith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Smith.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Gav'Et-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Gav'Et-Oni.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Miang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Miang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Gyorunton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Gyorunton.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Gains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Gains.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Cosmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Cosmo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Megalo_Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Megalo_Menya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Maruto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Maruto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Pasqualina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Pasqualina1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Ramba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Ramba.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Concetta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Concetta.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Dommario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Dommario.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Exdash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Exdash.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Miang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Miang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Porta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Porta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Megalo_Syuuto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Megalo_Syuuto1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Sammy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Sammy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Divano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Divano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Trouser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Trouser.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Pasqualina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Pasqualina.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Christine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Christine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Smith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Smith.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Pugnala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Pugnala.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Menya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Je-Ne-Viv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Je-Ne-Viv.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Marrabbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Marrabbio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Mortaccio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Mortaccio.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Gallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Gallo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Megalo_Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Megalo_Menya.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Zi'Assunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Zi'Assunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Pasqualina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Pasqualina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Megalo_Syuuto1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Megalo_Syuuto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Syuuto.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Porta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Porta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Genevieve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Genevieve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Megalo_Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Megalo_Syuuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Imelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Imelda.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Eleanor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Eleanor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2023-04-11_21-33-23-PhotoRoom.png-PhotoRoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2023-04-11_21-33-23-PhotoRoom.png-PhotoRoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Luminaire-C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Luminaire-C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Eleanor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Eleanor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Krochi-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Krochi-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Keitha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Keitha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Minnah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Minnah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-O'Sole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-O'Sole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Scorej-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Scorej-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Sigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Sigma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Smith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Smith.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Krochi-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Krochi-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Peppino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Peppino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Gav'Et-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Gav'Et-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Gallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Gallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Pugnala" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Pugnala.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Lama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Lama.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Sigma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Sigma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-McCoy-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-McCoy-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Menya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Cosmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Cosmo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Imelda (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Imelda (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Mortaccio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Mortaccio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Lama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Lama.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Giovanna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Giovanna.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Telegram_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Telegram_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Christine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Christine.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-O'Sole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-O'Sole.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Arca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Arca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Maruto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Maruto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Sammy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Sammy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Trouser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Trouser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Ramba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Ramba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Mortaccio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Mortaccio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-McCoy-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-McCoy-Oni.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Poppea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Poppea.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Je-Ne-Viv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Je-Ne-Viv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Arca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Arca.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Marrabbio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Marrabbio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Gyorunton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Gyorunton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="здфнпкщгтв" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\здфнпкщгтв.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Krochi-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Krochi-2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Babi-Onna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Babi-Onna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Scorej-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Scorej-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Ambrojoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Ambrojoe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Je-Ne-Viv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Je-Ne-Viv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Toastie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Toastie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Scorej-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Scorej-Oni.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Pasqualina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Pasqualina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-O'Sole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-O'Sole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Keitha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Keitha.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Giovanna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Giovanna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Antonio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Antonio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Poe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Poe.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Gallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Gallo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Luminaire-C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Luminaire-C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Arca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Arca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Gav'Et-Oni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Gav'Et-Oni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Poe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Poe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Minnah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Minnah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Eleanor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Eleanor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Megalo_Syuuto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Megalo_Syuuto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sprite-Gyorunton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sprite-Gyorunton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Cavallo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Cavallo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Babi-Onna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Babi-Onna.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animated-Genevieve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animated-Genevieve.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Gennaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Gennaro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black_Sprite-Babi-Onna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black_Sprite-Babi-Onna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_610ce98233b35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_610ce98233b35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

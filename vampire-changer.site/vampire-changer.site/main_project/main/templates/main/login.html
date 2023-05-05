@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+    <div class="container">
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-error">{{ form.non_field_errors }}</div>
+        {% for f in form %}
+        <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+        <div class="form-error">{{ f.errors }}</div>
+        {% endfor %}
+        <button type="submit">Log-in</button>
+    </form>
+        <p class="login-callout mt-3">
+          New to VChanger?
+            <a href="{% url 'RegisterForm' %}" >Create an account</a>.
+        </p>
+        <p class="login-callout mt-3">
+          Forgot your password?
+            <a href="{% url 'password_reset' %}" >Сбросить пароль</a>.
+        </p>
+    </div>
+{% endblock %}
+</body>
+</html>

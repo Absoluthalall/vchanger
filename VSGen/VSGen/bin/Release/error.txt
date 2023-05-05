@@ -1,0 +1,4 @@
+System.FormatException: Данная строка не распознана как действительное значение DateTime. Обнаружено неизвестное слово, начинающееся с индекса 0.
+   в System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   в VSGen.Scripts.Script.LoginValid(String email, String password, Int32& subscription, DateTime& Expires, String& nickname) в D:\NIISI\cheats\VSGen\VSGen\Scripts\Scripts.cs:строка 245
+   в VSGen.FormLogin.button1_Click(Object sender, EventArgs e) в D:\NIISI\cheats\VSGen\VSGen\FormLogin.cs:строка 31

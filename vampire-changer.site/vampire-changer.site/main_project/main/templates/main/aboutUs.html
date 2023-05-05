@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}Contacts{% endblock %}
+{% block content %}
+<div class="container">
+    <h1 class="text-center"><b>Join our <a href="https://t.me/+1copEtim7YhlMWVi" target="_blank">telegram channel.</a></b></h1>
+    <h5 class="text-center">You will be the first to see all the news.</h5>
+    <h5 class="text-center">You will see upcoming updates and be aware of upcoming discounts and promotions.</h5>
+    <div class="text-center" style="margin-bottom:80px"><img src="{% static 'main/images/tg.png' %}" alt="ERROR"></div>
+    <h1><b>Support</b></h1>
+    <h4 class="text-center">If you have any question or any problem, please check tab <a href="{% url 'FaQ' %}">FAQs</a>. 
+    If you did not find the right solution to your problem, then write your question to the email <b>abdulahsoftware@gmail.com</b>. 
+    In order for the answer to come earlier and be more detailed, provide <b>full information</b> about the problem and attach <b>screenshots</b>. 
+    We will answer you within a day. <b>Also, if you have any wishes for the functionality of the application, you can send your ideas to the same email.</b></h4>
+</div>
+{% endblock %}

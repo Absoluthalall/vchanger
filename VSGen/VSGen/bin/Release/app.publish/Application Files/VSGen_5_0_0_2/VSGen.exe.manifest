@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VSGen.exe" version="5.0.0.2" publicKeyToken="590b1396abc7213c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon_610ce98233b35.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VSGen" version="5.0.0.2" language="neutral" processorArchitecture="x86" />
+    <commandLine file="VSGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Параметры манифеста UAC
+             Если вы хотите изменить уровень контроля учетных записей Windows, замените узел 
+             requestedExecutionLevel на один из следующих.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            При указании элемента requestedExecutionLevel будет отключена виртуализация файлов и реестра. 
+            Удалите этот элемент, если виртуализация требуется приложению для обратной
+            совместимости.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VSGen.exe" size="7366616">
+      <assemblyIdentity name="VSGen" version="5.0.0.2" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rVowGIrkC3g/q/6rWMUgXeFjzcBELWoB5JpPlm9Xgf8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="arabian_middle_east_light_decoration_candle_icon_252306.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EvIrcqR9ofq0EmHhz7oKeFzgzYDiIRdkSAQlessr0UM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon_610ce98233b35.ico" size="203870">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>94byAEhxbQL6e9GZlJP/WXyRmCfm8FLl2JTxQ7bBayw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VSGen.exe.config" size="2091">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SgA8OY4660H38I2Xenmfkqs2WRx1iechvjHMn/JXDVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Список версий Windows, на которых это приложение было протестировано
+           и будет работать. Раскомментируйте соответствующие элементы, чтобы ОС Windows 
+           автоматически выбрала наиболее совместимое окружение. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-3E1HOJ6\gleb" issuerKeyHash="a47b13f9f310622af0fa11ac50eed06c6821aba6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pKnLjvEP4Oeg49N/1ktNXOntHf2TEHCU7SiOfXwZoik=</DigestValue></Reference></SignedInfo><SignatureValue>DsCgZz4y4/YtSEnb4Vkfid991FamhHJkq3ANVHO7U6iESklwKJcWFPd4HL36KICYbuNKf++vvKPZQ4F9rMyF3bK3PxVXoINJTaofWFSIPXc8cqdUyxU1EpFnONnU4siSuE73KA+pl71Y9HyvehpOvc0jFT1jha2tPYhia3B+aic=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sYzN6nqnVLp23vHwP0raG2FlVNGQTgGLfNWl2kPISG7lKIJs1vio6MreYo/AzvYYLn9RCqONH19MkOwT6rLRc5PIJKzSGqiY0AAxyMHncIG46t+LwblKAHhLeO2Z+/36szhHIHUqfw/fKhvA1RQH4ACnsH2PzvtzhNh0WxVpPdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="29a2197c7d8e28ed94701093fd1dede95c4d4bd67fd3e3a0e7e00ff18ecba9a4" Description="" Url=""><as:assemblyIdentity name="VSGen.exe" version="5.0.0.2" publicKeyToken="590b1396abc7213c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3E1HOJ6\gleb</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eDLF750bps7Om98z/k7pEPoeBfIrL0T2/fuwU+o+BNM=</DigestValue></Reference></SignedInfo><SignatureValue>cytNciopX+mIBapyLvuO0XmQS+rGtC3ah9K0lGKTO8FZFNcqNSLbXcZdim/Ubp/3POkZPHiqZ1VYkxw5d7gvgTKEVTpSl/U+FRCfvMkbDLqOEWtqaXSuyIAYBgaBmLiZxJZAhoxpHd4HRXqdkZCmwrfOOlyWca0D/o8W05BoxEo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sYzN6nqnVLp23vHwP0raG2FlVNGQTgGLfNWl2kPISG7lKIJs1vio6MreYo/AzvYYLn9RCqONH19MkOwT6rLRc5PIJKzSGqiY0AAxyMHncIG46t+LwblKAHhLeO2Z+/36szhHIHUqfw/fKhvA1RQH4ACnsH2PzvtzhNh0WxVpPdE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPGzeu8fjU6xOjR8lfqLNiTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADMARQAxAEgATwBKADYAXABnAGwAZQBiMB4XDTIzMDQxNjE3NTcwNFoXDTI0MDQxNTIzNTcwNFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAzAEUAMQBIAE8ASgA2AFwAZwBsAGUAYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsYzN6nqnVLp23vHwP0raG2FlVNGQTgGLfNWl2kPISG7lKIJs1vio6MreYo/AzvYYLn9RCqONH19MkOwT6rLRc5PIJKzSGqiY0AAxyMHncIG46t+LwblKAHhLeO2Z+/36szhHIHUqfw/fKhvA1RQH4ACnsH2PzvtzhNh0WxVpPdECAwEAATANBgkqhkiG9w0BAQsFAAOBgQB3O26XH1yC9i45kDB86E4WM/5dZaZoiJrNnrwr/CsrP2zxKY153k5ypc3+kL7G3hJ1BtyQwqlwVlWviCDW0S2UmhpbCMPH8slLsTaShnHmqt399PNhHAOi8OzP6mv6qsR1XYOwb4koZV7MYOaUUm1bwn2o4Eo7daGDVWUeRmzCPg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

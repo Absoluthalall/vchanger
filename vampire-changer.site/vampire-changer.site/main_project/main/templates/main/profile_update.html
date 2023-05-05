@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}Change Profile{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+    <div class="container">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for f in u_form %}
+        <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+        <div class="form-error">{{ f.errors }}</div>
+        {% endfor %}
+        {% for f in p_form %}
+        <p><label class="form-label" for="{{ f.id_for_label }}">{{f.label}}: </label>{{ f }}</p>
+        <div class="form-error">{{ f.errors }}</div>
+        {% endfor %}
+        <button type="submit">UPDATE PROFILE</button>
+    </form>
+    </div>
+{% else %}
+<div class="centreblock"><a href="{% url 'Login' %}" class="nav-link px-2"><h1><b>You need to login.</b></h1></a>
+<img src="{% static 'main/images/stop.png' %}" alt="ERROR">
+</div>
+{% endif %}
+{% endblock %}

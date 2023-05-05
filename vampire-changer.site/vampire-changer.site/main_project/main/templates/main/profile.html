@@ -1,0 +1,95 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% load custom_time_tags %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+{% if user.is_authenticated %}
+{% get_today as today %}
+    <div class="container">
+        <div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+<div class="col-xl-6 col-md-12">
+                                                <div class="card user-card-full">
+                                                    <div class="row m-l-0 m-r-0">
+                                                        <div class="col-sm-4 bg-c-lite-green user-profile">
+                                                            <div class="card-block text-center text-white">
+                                                                    <img src="{{user.profile.image.url}}" alt="User-Profile-Image" style="max-width:100%; height:auto;">
+                                                                <h6 class="f-w-600">{{user.nickname}}</h6>
+                                                                <a href="{% url 'profile_update'  %}" class="btn btn-dark">EDIT</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-8">
+                            <div class="card-block">
+                <h4 class="m-b-20 p-b-5 b-b-default f-w-600"><big><big><big>Information</big></big></big></h4>
+                <div class="row">
+                    <div class="col">
+                        <p class="m-b-10 f-w-600"><big><big>Email</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big><p>{{user.email}}</p></big></big></h6>
+                    </div>
+                </div>
+                <h4 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600"><big><big><big>Subscription</big></big></big></h4>
+                    {% if user.date_god > today %}
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Status</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>God</big></big></h6>
+                    </div>
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Expires</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>{{user.date_god}}</big></big></h6>
+                    </div>
+                    </div>
+                    {% else %}
+                    {% if user.date_premium > today %}
+                    <div class="row">
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Status</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>Premium</big></big></h6>
+                    </div>
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Expires</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>{{user.date_premium}}</big></big></h6>
+                    </div>
+                        </div>
+                    {% else %}
+                    {% if user.date_pro > today %}
+                        <div class="row">
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Status</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>Pro</big></big></h6>
+                    </div>
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Expires</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>{{user.date_pro}}</big></big></h6>
+                    </div>
+                            </div>
+                    {% else %}
+                    <div class="row">
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Status</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>Free</big></big></h6>
+                    </div>
+                    <div class="col-sm-5">
+                        <p class="m-b-10 f-w-600"><big><big>Expires</big></big></p>
+                        <h6 class="text-muted f-w-400"><big><big>Permanent</big></big></h6>
+                    </div>
+                            </div>
+                    {% endif %}
+                {% endif %}
+                {% endif %}
+            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             </div>
+                                                </div>
+                                            </div>
+                                            </div>
+{% else %}
+<div class="centreblock"><a href="{% url 'Login' %}" class="nav-link px-2"><h1><b>You need to login.</b></h1></a>
+<img src="{% static 'main/images/stop.png' %}" alt="ERROR">
+</div>
+{% endif %}
+{% endblock %}
